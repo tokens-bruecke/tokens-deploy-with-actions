@@ -1,0 +1,29 @@
+{
+  "name": "tokens-deploy-with-actions",
+  "version": "1.0.0",
+  "description": "An example repo with design tokens auto-deploy",
+  "main": "build.js",
+  "scripts": {
+    "build": "rm -rf lib && node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokens-bruecke/tokens-deploy-with-actions.git"
+  },
+  "keywords": [
+    "design-tokens",
+    "style-dictionary",
+    "github-actions"
+  ],
+  "author": "Pavel Laptev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tokens-bruecke/tokens-deploy-with-actions/issues"
+  },
+  "homepage": "https://github.com/tokens-bruecke/tokens-deploy-with-actions#readme",
+  "dependencies": {
+    "@tokens-bruecke/sd-utils": "git+https://github.com/tokens-bruecke/sd-utils.git",
+    "style-dictionary": "^3.8.0"
+  }
+}
