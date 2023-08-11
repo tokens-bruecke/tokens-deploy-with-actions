@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/tokens-bruecke/tokens-deploy-with-actions#readme",
   "dependencies": {
-    "@tokens-bruecke/sd-utils": "git+https://github.com/tokens-bruecke/sd-utils.git",
+    "@tokens-bruecke/sd-utils": "^2.0.0",
     "style-dictionary": "^3.8.0"
   }
 }
