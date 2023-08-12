@@ -5,6 +5,9 @@ on:
     branches:
       - main # Adjust this to the branch you want to trigger the action on
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,3 +29,4 @@ jobs:
         with:
           author_name: GitHub Actions
           commit: "Build Tokens"
+          add: "."
